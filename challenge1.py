@@ -7,7 +7,6 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
 
 def main():
-    name = "stefano"
     alphabet = "ABCDEFGHILMNOPQRSTUVZXYW"
     base = "stefano"
     salt = b'\xd4\x1f\xceg\xe9\xafW\xad\xb7+Y\xc3\xd9t\xe1\xc6'
@@ -16,8 +15,6 @@ def main():
                  b'-JYjy5Ut0Ycy4E1GHyUxCSEgROSw2HFsJjX43qZgk2AyMG1Vzfxx8V212x3WWwszfCV1rR2KWHvUyorQB' \
                  b'-0asgI3NLcrZiLVjJSQHg2qOqqKNUyv-TQsR-EIo-GgI4FOnA1kyFymTQv2Vcjxq4zAtUO3' \
                  b'-nssuxuVC_n27xefX4eRd_GrnonCvRL_0b_3KYt-pQp4iT_hcbvuEnuM--Ue-F_BjYg== '
-
-    passwd = b''
 
     for n in range(10):
         number = n
@@ -49,8 +46,8 @@ def main():
 if __name__ == '__main__':
     main()
 
-    ''''
-#Codice di cifratura    
+''''
+#Encryption code    
     passwd = b"……………"
     cleartext = b"…………………………"
     salt = os.urandom(16)
