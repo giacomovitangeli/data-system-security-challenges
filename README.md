@@ -1,4 +1,4 @@
-# Data-and-System-Security
+# Data and System Security Challenges
 
 ## Challenge 1:
 Decryption of a cypher text using a python script, brute force approach.
